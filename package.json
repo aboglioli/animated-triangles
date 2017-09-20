@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "npm run -s minify",
-    "minify": "minify --output dist/animated-triangles.js lib/animated-triangles.js"
+    "minify": "minify --output dist/animated-triangles.min.js lib/animated-triangles.js"
   },
   "repository": {
     "type": "git",
