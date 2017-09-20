@@ -13,7 +13,12 @@
     <div id="output" class="container"></div>
   </div>
 
-  <script src="lib/animated-trianglify.js"></script>
+  <script src="lib/animated-triangles.js"></script>
+  <script>
+    AnimatedTriangles.start('container', 'output', {
+      renderer: AnimatedTriangles.renderers.CANVAS
+    });
+  </script>
 </body>
 
 </html>
