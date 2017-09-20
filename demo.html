@@ -10,10 +10,16 @@
 
 <body>
   <div id="container" class="container">
-    <div id="output" class="container"></div>
+    <div id="output" class="container">
+      <div class="overlay">
+        <div class="box">
+          <h1>Content</h1>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <script src="dist/animated-triangles.js"></script>
+  <script src="dist/animated-triangles.min.js"></script>
   <script>
     AnimatedTriangles.start('container', 'output', {
       renderer: AnimatedTriangles.renderers.CANVAS
