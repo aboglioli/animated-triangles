@@ -1,0 +1,26 @@
+{
+  "name": "animated-trianglify",
+  "version": "0.0.1",
+  "description": "Based on [Codepen from msurguy](https://codepen.io/msurguy/pen/sbIio).",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "minifier": "^0.8.1"
+  },
+  "scripts": {
+    "build": "npm run -s minify",
+    "minify": "minify --output dist/animated-triangles.js lib/animated-triangles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboglioli/animated-triangles.git"
+  },
+  "author": "Alan Boglioli <alan.boglioli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aboglioli/animated-triangles/issues"
+  },
+  "homepage": "https://github.com/aboglioli/animated-triangles#readme"
+}
